@@ -1,6 +1,7 @@
 # Conway's Game of Life
 
-Thought Process:
+##Thought Process:
+
 Initially I intended to work with a simple matrix representation represented by a 2D vector, and then dynamically push/pulling rows and columns based on which direction the life form propogation was "moving" towards as they approached the boundies of the 6x6 universe. In this, the 4 vectors for each outer boundary of the matrix would be saved to reduce retreival time. 
 
 However, the problems with this approach I noticed were twofold:
