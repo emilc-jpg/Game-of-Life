@@ -1,13 +1,13 @@
 # Conway's Game of Life
 
 ## How to Run:
-  1a. Download and navigate to .cpp file folder, and type "g++ conway.cpp -o application.exe" into terminal
+  1a. Download file and navigate to .cpp file folder, and type "g++ conway2.cpp -o application.exe" into terminal
   
   1b. Open "application.exe" that has been generated
   
 or:
 
-  2a) Compile and run conway.cpp in IDE of choice
+  2a) Compile and run conway2.cpp into IDE of choice
 
 ## Thought Process:
 Initially I intended to work with a simple matrix representation represented by a 2D vector, and then dynamically push/pulling rows and columns based on which direction the life form propogation was "moving" towards as they approached the boundies of the 6x6 universe. In this, the 4 vectors for each outer boundary of the matrix would be saved to reduce retreival time. 
