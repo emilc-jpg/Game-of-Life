@@ -3,7 +3,7 @@
 ## How to Run:
   1a. Download and navigate to .cpp file folder, and type "g++ conway.cpp -o application.exe" into terminal
   1b. Open "application.exe" that has been generated
-  or:
+or:
   2a) Compile and run conway.cpp in IDE of choice
 
 ## Thought Process:
